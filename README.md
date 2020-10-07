@@ -115,7 +115,7 @@ And then add some scripts to package.json:
 
 Then add a test to your test script. I usually start with this just to test the setup, but then delete it when I start to add more:
 
-```
+```js
 import { describe } from 'riteway';
 
 describe('Test suite', async assert => {
@@ -167,7 +167,7 @@ Display the list below the input form.
 
 Let's translate the first requirement into tests. Let's make sure we're rendering our input field. We'll need to import a React component helper from RITEway. Let's change our test file to:
 
-```
+```js
 import React from "React";
 import { describe } from "riteway";
 import render from "riteway/render-component";
@@ -240,7 +240,7 @@ export default InputForm;
 
 Let's add a test for the button. Update your describe block so it looks like the following code. You can make multiple assertions in the same describe block:
 
-```
+```js
 describe("InputForm", async (assert) => {
   const $ = render(<InputForm />);
 
