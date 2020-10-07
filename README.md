@@ -35,7 +35,7 @@ npm install --save-dev riteway watch tap-nirvana
 
 Lint tools help you detect and correct errors, and prettier helps you keep your code formatted properly for consistent style:
 
-````
+```
 npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-react prettier
 ```
 
