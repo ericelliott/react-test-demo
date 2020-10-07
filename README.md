@@ -427,4 +427,12 @@ describe("List", async (assert) => {
 });
 ```
 
+This test should fail now.
+
 The great thing about `match` is that if the test fails, it will tell you the text it was expecting, and an empty string for the `actual` value, which will be much more useful output than the true/false booleans you get from most text matching unit test assertions.
+
+Now all that's left is to put the braces back and watch the test pass:
+
+```
+
+```
