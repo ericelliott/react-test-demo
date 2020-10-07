@@ -434,5 +434,20 @@ The great thing about `match` is that if the test fails, it will tell you the te
 Now all that's left is to put the braces back and watch the test pass:
 
 ```
+❯ npm run test
 
+> react-test-demo@0.1.0 test /Users/eric/dev/react-test-demo
+> node -r @babel/register -r @babel/polyfill src/test.js | tap-nirvana
+
+
+  InputForm
+    ✔  Given no arguments: should render the text input field
+    ✔  Given no arguments: should render the add to list button
+
+  List
+    ✔  Given a list of n fields: should render n items
+    ✔  Given text for the list items: should render the correct text
+
+
+  passed: 4,  failed: 0  of 4 tests  (854ms)
 ```
